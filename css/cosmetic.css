@@ -1,0 +1,137 @@
+.skincare-cosmetics-banner {
+  width: 80%;
+  height: 300px;
+  margin-left: 7em;
+  margin-bottom: 12em;
+  margin-top: 2em;
+}
+
+.skincare-cosmetics-banner img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .skincare-cosmetics-banner {
+      width: 90%;
+      margin-left: 5em;
+      height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skincare-cosmetics-banner {
+      width: 95%;
+      margin-left: 2em;
+      height: 200px;
+      margin-bottom: 8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .skincare-cosmetics-banner {
+      width: 100%;
+      margin-left: 0;
+      height: 150px;
+      margin-bottom: 5em;
+  }
+}/* Responsive Styles */
+@media (max-width: 1024px) {
+  .skincare-cosmetics-banner {
+      width: 90%;
+      margin-left: 5em;
+      height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skincare-cosmetics-banner {
+      width: 95%;
+      margin-left: 2em;
+      height: 200px;
+      margin-bottom: 8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .skincare-cosmetics-banner {
+      width: 100%;
+      margin-left: 0;
+      height: 150px;
+      margin-bottom: 5em;
+  }
+}
+
+
+table {
+  width: 100%;
+  height: 300px;
+  border-spacing: 30px;
+
+}
+
+table tr {
+  width: 25%;
+  height: 300px;
+}
+
+td {
+ border: 1.2px outset #0d1b2a;
+ border-style: solid;
+ border-collapse: collapse;
+ border-radius: 10px;
+ padding-top: 0.5em;
+ padding-bottom: 0.5em;
+ padding-left: 0.5em;
+ padding-right: 0.5em;
+ width: 20%;
+ height: 250px;
+}
+
+
+.cosmetic-products img {
+  margin-left: 1em;
+  margin-top: 1.2em;
+  transition: 0.15s;
+}
+
+.cosmetic-products img:hover {
+  transform: scale(1.1);
+}
+
+
+
+.cosmetic-products p {
+  text-align: center;
+}
+
+.cosmetic-products a {
+  display: block;
+  margin: 1em 4em;
+  padding: 1em;
+  background-color: #415a77;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.15s;
+}
+
+.cosmetic-products a:hover, .cosmetic-products a:visited {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.cosmetic-products a:focus, .cosmetic-products a:visited {
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+

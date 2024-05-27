@@ -1,0 +1,205 @@
+/*-----ABOUT US-----*/
+.about-us h2 {
+  font-size: 30px;
+  text-align: center;
+  background-color: #778da9;
+  padding: 1em;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+.about-us p {
+  float:right;
+  text-align: justify;
+  width: 700px;
+  margin-right: 70px;
+  margin-top: 40px;
+}
+
+.about-us img {
+  width: 400px;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+.about-us {
+ margin-bottom: 40px;
+}
+
+/*------- Responsive Styles ABOUT US------ */
+
+@media (max-width: 768px) {
+  .about-us p {
+    width: auto;
+    margin: 0 20px; 
+    text-align: justify; 
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us img {
+    max-width: 300px; 
+  }
+}
+
+/*-----BRANCHES------*/
+
+.branches {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
+}
+  
+.heavensquare-branches {
+  background-color: #fff;
+  padding-top: 30px;
+  margin-top: 3em;
+}
+
+.heavensquare-branches h2 {
+  font-size: 30px;
+  text-align: center;
+  background-color: #778da9;
+  padding: 1em;
+  margin-bottom: 1.5em;
+
+}
+
+.heavensquare-branches p {
+  font-size: 20px;
+  margin-left: 1em;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.branches {
+  display: inline-block;
+  margin-bottom: 25px;
+  border: solid;
+  height: 350px;
+  width: 600px;
+  
+  
+}
+
+.branches h3, img {
+  padding-top:  10px;
+  margin-left: 5px;
+}
+
+.branches p {
+  font-size: 14px;
+  width: 230px;
+  
+}
+
+iframe {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 20px;
+  left: 280px;
+  
+}
+
+.one {
+  position: relative;
+}
+
+
+.two {
+  position: relative;
+}
+
+.map-two {
+  position: absolute;
+}
+
+.three {
+  position: relative;
+}
+
+.map-three {
+  position: absolute;
+
+}
+
+.four {
+  position: relative;
+}
+
+.map-four {
+  position: absolute;
+}
+
+.five {
+  position: relative;
+}
+
+.map-five {
+  position: absolute;
+}
+
+.six {
+  position: relative;
+}
+
+.map-six {
+  position: absolute;
+}
+
+/*------SERVICES------*/
+
+.our-services h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #778da9;
+  padding: 1em;
+  text-align: center;
+
+}
+
+.content {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.2rem;
+  width: 80%;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content thead tr {
+  background-color: #415a77;
+  color: #fff;
+  text-align: center;
+}
+
+.content th,
+.content td {
+  padding: 12px 15px;
+}
+
+.content tbody tr {
+  border-bottom: 1px solid #000;
+}
+
+.content tbody tr:nth-of-type(even) {
+  background-color: #f8ededbd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

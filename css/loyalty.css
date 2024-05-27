@@ -1,0 +1,322 @@
+.loyalty-banner {
+  background-image: url(../images/banner_loyalty.png);
+  background-size: cover;
+  background-position: 69%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 1.5em;
+}
+
+.gray {
+  background-color: gray;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: #fff;
+  max-height: 200px;
+ 
+}
+
+.gray h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-left: 2em;
+  width: 50%;
+  min-width: 400px;
+}
+
+.gray p {
+  width: 40%;
+  margin-left: 1.5em;
+  font-size: 1.2rem;
+  min-width: 400px;
+}
+
+.gray a {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  padding: 1em;
+  margin-left: 4em;
+  border-radius: 15px;
+  margin-bottom: 0.5em;
+  
+}
+
+.gray img {
+  width: 38%;
+  position: absolute;
+  top: 70px;
+  right: 90px;
+  border-radius: 50%;
+  border-width: 10px;
+  border-color: #000;
+}
+
+@media (max-width: 768px){
+  .loyalty-banner {
+      width: 768px;
+      
+  }
+  .gray h1 {
+    margin-left: 0.5em;
+    font-size: 1.4rem;
+
+  }
+
+  .gray p {
+    margin-left: 0.5em;
+  }
+
+  .gray a {
+    margin-left: 6em;
+
+  }
+
+  .gray img {
+    top: 150px;
+    right: 50px
+  }
+}
+
+.loyalty-schemes h2 {
+  background-color: #415a77;
+  padding: 1em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.offered-schemes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.scheme img {
+  width: 200px;
+}
+
+.scheme a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  box-shadow: 0 0 20px 2px rgba(13, 27, 42, 0.4);
+  transition: 1s;
+}
+
+.scheme a:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .loyalty-schemes h2 {
+    margin-top: 2em;
+    text-align: center;
+  }
+
+  .offered-schemes {
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 3em;
+  }
+
+
+}
+
+.points-content {
+  background-color: #415a77;
+  margin-top: 5em;
+  padding: 3em;
+  color: #fff;
+
+}
+
+.points-content p {
+  width: 30%;
+
+}
+
+.benefits {
+  background-color: #000;
+  width: 65%;
+  color: #fff;
+  text-align: center;
+  padding: 2em;
+  margin-left: 420px;
+  margin-top: -150px;
+  height: 250px;
+}
+
+.benefits h3 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.points-benefit {
+  width: 63%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #fff;
+  margin-left: 429px;
+  margin-top: -160px;
+}
+
+.offer {
+  background-color: #778da9;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: 1em;
+}
+
+.discounts img {
+  width: 80%;
+}
+
+.birthday-gifts img {
+  width: 90%;
+}
+
+.gift-vouchers img {
+  width: 80%;
+
+}
+
+.free-delivery img {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .points-content {
+    width: 100%;
+  }
+
+  .points-content p {
+    width: 90%;
+  }
+
+  .benefits {
+    margin-top: -40px;
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .points-benefit {
+    width: 80%;
+    margin-top: -150px;
+    margin-left: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .offer {
+    display: grid;
+  } 
+}
+
+
+
+form {
+  width: 70%;
+  margin-left: 10em;
+  margin-bottom: 3em;
+  
+}
+
+.loyalty-registration h2 {
+  text-align: center;
+}
+
+.loyalty-registration {  
+padding-top: 1.5em; 
+padding-left: 3em;
+background-color: #778da9;  
+margin-top: 4em;
+
+}  
+
+input[type=text], input[type=password], textarea {  
+width: 80%;  
+padding: 15px;  
+margin: 5px 0 22px 0;  
+display: block;  
+border: none;  
+background: #f1f1f1;  
+}  
+
+input[type=text]:focus, input[type=password]:focus {  
+background-color: #e0e1dd;  
+outline: none;  
+}  
+
+label {
+  display: block;
+}
+
+.select-loyalty label {
+  margin-bottom: 0.5em;
+
+}
+
+.select-loyalty select {
+  height: 30px;
+  margin-bottom: 0.9em;
+}
+
+.select-loyalty select option {
+  height: 20px;
+}
+
+.gender {
+  margin-bottom: 0.5em;
+}
+
+.phone {
+  margin-bottom: 0.5em;
+}
+
+.phone input {
+  margin-bottom: 0.5em;
+}
+
+.email {
+  margin-top: 0.5em;
+}
+
+.register-button {  
+background-color: #1b263b;  
+color: white;  
+padding: 16px 20px;  
+margin: 1.5em 6em;  
+border: none;  
+cursor: pointer;  
+width: 50%;  
+opacity: 0.9;  
+}  
+
+.register-button:hover {  
+opacity: 1;  
+}  
+
+@media (max-width:768px) {
+  form {
+    width: 90%;
+    margin-left: 1em;
+  }
+
+  .loyalty-registration h2 {
+    margin-right: 1.5em;
+  }
+
+}
+
+

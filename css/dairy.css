@@ -1,0 +1,214 @@
+/*----DAIRY PRODUCTS BANNER----*/
+.diary-products-banner {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+  
+}
+
+.diary-products-banner img {
+  margin-left: 6em;
+  margin-right: 6em;
+  width: 85%;
+}
+
+.diary-products-banner p {
+  width: 100%;;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+/*----DAIRY PRODCUTS-----*/
+
+.dairy-products {
+  margin-top: 3em;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .dairy-products {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+
+
+.dairy {
+  width: 18%;
+
+  cursor: pointer;
+  background-color: #778da9;
+  
+}
+
+@media (max-width: 600px) {
+  .dairy {
+    width: 90%;
+  }
+}
+
+.dairy img {
+  width: 75%; 
+  
+ 
+}
+
+.dairy a {
+  text-align: center;
+  display: block;
+}
+
+.dairy:hover {
+  box-shadow:  0 6px 20px 0 rgba(48, 36, 36, 0.19);
+}
+
+.dairy a, .dairy.a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*---PRODUCTS-----*/
+
+.products h2 {
+  text-align: center;
+  background-color: #778da9;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+#milk, #yoghurt-curd,  #cheese-butter, #condensedmilk  {
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+.products h3 {
+  font-size: 1.5rem;
+  margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container-1, .container-2, .container-3, .container-4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  width: 280px;
+  border: 1px solid #415a77;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item img {
+  margin-top: 5px;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.item img:hover {
+  transform: scale(1.1);
+}
+
+.item p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+
+.add-product , .add-product:visited {
+  display: block;
+  margin: 1em 4em;
+ text-align: center;
+ padding-top: 1em;
+ padding-bottom: 1em;
+  background-color: #415a77;
+  width: 50%;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.15s;
+}
+
+.add-product:hover{
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.add-product:focus{
+  opacity: 0.5;
+}
+
+.products {
+  margin-top: 40px;
+}
+
+.products h2 {
+  text-align: center;
+}
+
+.products h3 {
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .item {
+      width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .item {
+      width: 90%;
+  }
+
+  .products h3 {
+      margin-left: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .item {
+      width: 100%;
+  }
+
+  .item img {
+      width: 100%;
+  }
+
+  .add-product {
+      width: 80%;
+  }
+
+  .products h3 {
+      margin-left: 10px;
+      font-size: 1.2rem;
+  }
+}
+
+
+
+
